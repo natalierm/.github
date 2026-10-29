@@ -1,0 +1,22 @@
+name: Feature
+description: New feature or change
+labels: [enhancement]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What and why, at a high level.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: Acceptance criteria, ideally as a checklist.
+  - type: input
+    id: spec
+    attributes:
+      label: Spec
+      description: Path under specs/ if this needs detailed exploration (optional).
+      placeholder: specs/002-feature-name/
